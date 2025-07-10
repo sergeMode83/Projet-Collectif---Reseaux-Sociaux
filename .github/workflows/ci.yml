@@ -37,6 +37,7 @@ jobs:
 
     - name: Vérifier le JS
       run: npx eslint .
+
    
     - name: Installer Lighthouse CI
       run: npm install -g @lhci/cli@0.15.x
